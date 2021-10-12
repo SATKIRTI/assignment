@@ -1,0 +1,365 @@
+//HTML- Part//
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="heading">DESIGN 1</h1>
+    <h2 class="box">Document List Section</h2> 
+    <h2 class="box1">Annotation Section</h2> 
+    <h2 class="box2">Labels Section</h2> 
+       
+
+<table class="square"  width="100%" height="82" border="0" cellspacing="5" cellpadding="5" background="white">
+    <tr>
+        <td height="1400" valign="top">
+            <table width="1490" height="1250" border="0" cellspacing="1" cellpadding="1">
+                <tr>
+                    <td class="topic" width="180px">
+                        <a  class="option" href="">click here</a>
+                        <fieldset class="one2">
+                            <p class="one3">
+                                01=   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis tempore alias et eius omnis debitis cum quibusdam est aliquam eos, quis earum! Voluptas nulla pariatur reiciendis nobis iste excepturi, veritatis explicabo quisquam perferendis reprehenderit labore! Modi harum non deleniti corrupti, voluptatem possimus repellat minus eveniet doloremque iure quam esse. <input type="radio">
+                            </p>
+                        </fieldset>
+                        <fieldset class="one4">
+                            <p class="one5">
+                                01=   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis tempore alias et eius omnis debitis cum quibusdam est aliquam eos, quis earum! Voluptas nulla pariatur reiciendis nobis iste excepturi, veritatis explicabo quisquam perferendis reprehenderit labore! Modi harum non deleniti corrupti, voluptatem possimus repellat minus eveniet doloremque iure quam esse. <input type="radio">
+                            </p>
+                        </fieldset>
+                        <fieldset class="one6">
+                            <p class="one7">
+                                01=   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis tempore alias et eius omnis debitis cum quibusdam est aliquam eos, quis earum! Voluptas nulla pariatur reiciendis nobis iste excepturi, veritatis explicabo quisquam perferendis reprehenderit labore! Modi harum non deleniti corrupti, voluptatem possimus repellat minus eveniet doloremque iure quam esse. <input type="radio">
+                            </p>
+                        </fieldset>
+                        <fieldset class="one8">
+                            <p class="one9">
+                                01=   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis tempore alias et eius omnis debitis cum quibusdam est aliquam eos, quis earum! Voluptas nulla pariatur reiciendis nobis iste excepturi, veritatis explicabo quisquam perferendis reprehenderit labore! Modi harum non deleniti corrupti, voluptatem possimus repellat minus eveniet doloremque iure quam esse. <input type="radio">
+                            </p>
+                        </fieldset>
+                        <fieldset class="one10">
+                            <p class="one11">
+                                01=   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis tempore alias et eius omnis debitis cum quibusdam est aliquam eos, quis earum! Voluptas nulla pariatur reiciendis nobis iste excepturi, veritatis explicabo quisquam perferendis reprehenderit labore! Modi harum non deleniti corrupti, voluptatem possimus repellat minus eveniet doloremque iure quam esse. <input type="radio">
+                            </p>
+                        </fieldset>
+                        <fieldset class="one12">
+                            <p class="one13">
+                                01=   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis tempore alias et eius omnis debitis cum quibusdam est aliquam eos, quis earum! Voluptas nulla pariatur reiciendis nobis iste excepturi, veritatis explicabo quisquam perferendis reprehenderit labore! Modi harum non deleniti corrupti, voluptatem possimus repellat minus eveniet doloremque iure quam esse. <input type="radio">
+                            </p>
+                        </fieldset>
+                        <div class="choose">
+                        <a href="#" class="previous">&laquo; Previous</a>
+                        <a href="#" class="next">Next &raquo;</a>
+                        <a href="#" class="previous round">&#8249;</a>
+                        <a href="#" class="next round">&#8250;</a>
+                    </div>
+                        
+            </td>
+
+                <td class="topic" width="886" >
+            </td>
+            <div class="topnav">
+                <input type="text" placeholder="Search..">
+            </div>
+            <div>
+                <div class="box red"></div>  <h2 class="one14">CATEGORY 1<input type="radio"></h2> 
+            </div>
+            <div>
+                <div class="box green"></div><h2 class="one15">CATEGORY 2<input type="radio"></h2> 
+            </div>
+            <div>
+                <div class="box black"></div><h2 class="one16">CATEGORY 3<input type="radio"></h2> 
+            </div>
+            
+            <div>
+                <div class="box blue"></div><h2 class="one17">CATEGORY 4<input type="radio"></h2> 
+            </div>
+            <div>
+                <div class="box purple"></div><h2 class="one18">CATEGORY 5<input type="radio"></h2> 
+            </div>
+            
+                <td class="topic" width="20px" >
+                    
+                </tr>
+                
+            </table>
+        </td>
+    </tr>
+    
+</table>
+</div>
+</body>
+</html>
+
+//CSS-Part//
+
+.container{
+  background-color: rgba(181, 191, 209, 0.705);
+  padding: 5px 20px 15px 20px;
+  border: 3px solid rgb(235, 40, 14);
+  width: 1490px;
+  height: 1500px;
+}
+.heading{
+  font-size: 54px;
+  color: aliceblue;
+  background-color: rgb(44, 44, 204);
+  border: 2px solid black;
+  width: 250px;
+}
+.topic{
+  border:2px solid black;
+  padding-left: 25em;
+}
+.box{
+  border: 2px solid black;
+  background-color: rgb(61, 61, 179);
+  float: left;
+  padding: .2em;
+  height: 40px;
+  font-size: 36px;
+  color: aliceblue;
+  margin-left: 40px;
+}
+.box1{
+  border: 2px solid black;
+  background-color: rgb(61, 61, 179);
+  float: left;
+  padding: .2em;
+  height: 40px;
+  font-size: 36px;
+  color: aliceblue;
+  float: centre;
+  text-indent: 5px;
+  margin-left: 156px;
+  
+}
+.box2{
+  border: 2px solid black;
+  background-color: rgb(61, 61, 179);
+  float: left;
+  padding: .2em;
+  height: 40px;
+  font-size: 36px;
+  color: aliceblue;
+  float:24px right;
+  margin-left: 300px;
+}
+.one{
+  position: relative;
+  right: 5px;
+  border: aliceblue;
+  width: 400px;
+
+}
+.one2{
+  position: absolute;
+  left: 54px;
+  top: .55px;
+  margin-top: 300px;
+  
+}
+.one3{
+  position: relative;
+  right: 5px;
+  border: aliceblue;
+  width: 400px;
+
+}
+.one4{
+  position: absolute;
+  left: 54px;
+  top: .55px;
+  margin-top: 500px;
+  
+}
+.one5{
+  position: relative;
+  right: 5px;
+  border: aliceblue;
+  width: 400px;
+
+}
+.one6{
+  position: absolute;
+  left: 54px;
+  top: .55px;
+  margin-top: 700px;
+  
+}
+.one7{
+  position: relative;
+  right: 5px;
+  border: aliceblue;
+  width: 400px;
+
+}
+.one8{
+  position: absolute;
+  left: 54px;
+  top: .55px;
+  margin-top: 900px;
+  
+}
+.one9{
+  position: relative;
+  right: 5px;
+  border: aliceblue;
+  width: 400px;
+
+}
+.one10{
+  position: absolute;
+  left: 54px;
+  top: .55px;
+  margin-top: 1100px;
+  
+}
+.one11{
+  position: relative;
+  right: 5px;
+  border: aliceblue;
+  width: 400px;
+
+}
+.one12{
+  position: absolute;
+  left: 54px;
+  top: .55px;
+  margin-top: 1300px;
+  
+}
+.one13{
+  position: relative;
+  right: 5px;
+  border: aliceblue;
+  width: 400px;
+
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+a:hover{
+  background-color: moccasin;
+  color: blue;
+}
+.previous{
+  background-color: cyan;
+  color: blue;
+}
+.next{
+  background-color: rgba(184, 64, 64, 0.527);
+  color: blue;
+}
+.round{
+  border-radius: 50%;
+}
+.choose{
+  position: absolute;
+  left: 134px;
+  top: .55px;
+  margin-top: 1490px;
+}
+.topnav{
+  margin-left: 1200px;
+  position: absolute;
+  margin-top: 50px;
+
+}
+.one14{
+  margin-left: 1200px;
+  position: absolute;
+  margin-top: 100px;
+  height: 9px;
+  width: 37px;
+}
+.one15{
+  margin-left: 1200px;
+  position: absolute;
+  margin-top: 180px;
+  height: 9px;
+  width: 37px;
+}
+.one16{
+  margin-left: 1200px;
+  position: absolute;
+  margin-top: 250px;
+  height: 9px;
+  width: 37px;
+}
+.one17{
+  margin-left: 1200px;
+  position: absolute;
+  margin-top: 320px;
+  height: 9px;
+  width: 37px;
+}
+.one18{
+  margin-left: 1200px;
+  position: absolute;
+  margin-top: 390px;
+  height: 9px;
+  width: 37px;
+}
+.red{
+  margin-left: 1150px;
+  position: absolute;
+  margin-top: 100px;
+  background: red;
+  width: 22px;
+  height: 18px;
+  border-radius: 9px;
+}
+.green{
+  margin-left: 1150px;
+  position: absolute;
+  margin-top: 180px;
+  background: green;
+  height: 18px;
+  width: 22px;
+  border-radius: 9px;
+}
+.black{
+  margin-left: 1150px;
+  position: absolute;
+  margin-top: 250px;
+  background:black;
+  height: 18px;
+  width: 22px;
+  border-radius: 9px;
+}
+.blue{
+  margin-left: 1150px;
+  position: absolute;
+  margin-top: 320px;
+  background:blue;
+  height: 18px;
+  width: 22px;
+  border-radius: 9px;
+}
+.purple{
+  margin-left: 1150px;
+  position: absolute;
+  margin-top: 390px;
+  background:purple;
+  height: 18px;
+  width: 22px;
+  border-radius: 9px;
+}
+.option{
+  margin-left: 350px;
+  position: absolute;
+  margin-bottom: 255px;
+}
+
+
